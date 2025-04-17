@@ -1,19 +1,19 @@
-import HeroSection from '../components/sections/HeroSection'
+import EnhancedHeroSection from '../components/sections/EnhancedHeroSection'
 import ServicesOverview from '../components/sections/ServicesOverview'
 import StrategySection from '../components/sections/StrategySection'
-import ServicesGrid from '../components/sections/ServicesGrid'
+import EnhancedServicesGrid from '../components/sections/EnhancedServicesGrid'
 import AboutSection from '../components/sections/AboutSection'
-import CTASection from '../components/sections/CTASection'
+import EnhancedCTASection from '../components/sections/EnhancedCTASection'
 
 const Home = () => {
   return (
     <>
-      <HeroSection />
+      <EnhancedHeroSection />
       <ServicesOverview />
       <StrategySection />
-      <ServicesGrid />
+      <EnhancedServicesGrid />
       <AboutSection />
-      <CTASection />
+      <EnhancedCTASection />
     </>
   )
 }
